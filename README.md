@@ -1,4 +1,4 @@
-# BLM3522 Ders Porjesi Akıllı Video Analiz Sistemi
+# BLM3522 Ders Projesi Akıllı Video Analiz Sistemi
 
 Bu proje, yerel ortamdan yüklenen video dosyalarının bulut depolama katmanına aktarılarak AWS Rekognition API'leri aracılığıyla makine öğrenmesi destekli nesne tanıma işlemlerinden geçirilmesini ve elde edilen verilerin NoSQL mimarisinde saklanmasını sağlayan multi-region bir bulut bilişim uygulamasıdır.
 
