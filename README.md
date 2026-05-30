@@ -14,7 +14,7 @@ Bu proje, yerel ortamdan yüklenen video dosyalarının bulut depolama katmanın
 ## Proje Yapısı
 
 ```text
-bulut_projesi/
+bulut_proje_4/
 ├── templates/
 │   ├── index.html        # Video yükleme arayüzü
 │   └── result.html       # Analiz sonuçları ekranı
