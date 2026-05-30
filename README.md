@@ -2,7 +2,7 @@
 
 Bu proje, yerel ortamdan yüklenen video dosyalarının bulut depolama katmanına aktarılarak AWS Rekognition API'leri aracılığıyla makine öğrenmesi destekli nesne tanıma işlemlerinden geçirilmesini ve elde edilen verilerin NoSQL mimarisinde saklanmasını sağlayan multi-region bir bulut bilişim uygulamasıdır.
 
-## 🚀 Mimari ve Çalışma Mantığı
+## Mimari ve Çalışma Mantığı
 
 - **Geliştirme Ortamı:** Python / Flask
 - **Dosya Depolama (S3):** AWS Ohio (`us-east-2`) bölgesinde izole ve dış dünyaya kapalı bir S3 Bucket üzerinde videolar barındırılır.
@@ -11,7 +11,7 @@ Bu proje, yerel ortamdan yüklenen video dosyalarının bulut depolama katmanın
 - **Bulut Veritabanı (MongoDB Atlas):** Filtrelenmiş eşsiz nesne etiketleri, AWS N. Virginia (`us-east-1`) bölgesindeki döküman tabanlı NoSQL veritabanına JSON formatında asenkron olarak kaydedilir.
 - **Güvenlik Sıkılaştırması:** AWS Access/Secret Key ve MongoDB URI bağlantı bilgileri kaynak koda gömülmemiş, `.env` çevresel değişkenler kasasıyla sistem güvenliği sağlanmıştır.
 
-## 📂 Proje Yapısı
+## Proje Yapısı
 
 ```text
 bulut_projesi/
@@ -23,7 +23,7 @@ bulut_projesi/
 └── .gitignore            # Hassas veri koruma filtresi
 ```
 
-## 🛠️ Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 1. Proje bağımlılıklarını kurun:
    ```bash
