@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Analiz Sonuçları</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f7f6; padding: 50px; text-align: center; }
+        .card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; text-align: left; }
+        ul { list-style-type: none; padding: 0; }
+        li { background: #e9ecef; margin: 5px 0; padding: 10px; border-radius: 5px; }
+        a { display: inline-block; margin-top: 20px; text-decoration: none; color: #007bff; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>{{ dosya }} - Tespit Edilen Nesneler</h2>
+        <p style="color: green; font-weight: bold;">Sonuçlar MongoDB'ye başarıyla kaydedildi!</p>
+        <ul>
+            {% for etiket in etiketler %}
+                <li>🏷️ {{ etiket }}</li>
+            {% endfor %}
+        </ul>
+        <a href="/">← Yeni Video Yükle</a>
+    </div>
+</body>
+</html>
